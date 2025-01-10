@@ -1,4 +1,4 @@
-# Chris Smith: Senior Data Scientist with 20 Years of Experience and Multiple Patents
+# Senior Data Scientist with 20 Years of Experience and Multiple Patents
 
 ## Experience and Expertise
 

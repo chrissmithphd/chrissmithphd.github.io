@@ -1,0 +1,8 @@
+I was researching {{role description}} roles on your team. Your search for someone who has worked on {{X}} and {{Y}} caught my attention.
+
+Over the past 15 years, I have:
+– Led and mentored teams of 10+ engineers and data scientists, both onshore and off.
+– Managed {{statistic}} while implementing {{project description}}.
+– Grown {{statistic}} by {{action}} resulting in growth from {{statistic}} to {{statistic}}. 
+
+If you think it makes sense, would you be open to hopping on a call to share a bit more about this role and how you’ve liked working with {{COMPANY}}?

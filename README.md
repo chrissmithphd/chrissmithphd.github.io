@@ -1,17 +1,102 @@
-# Senior Data Scientist with 20 Years of Experience and Multiple Patents
+# Chris Smith
 
-## Experience and Expertise
+> I like building systems that solve big problems.
 
-Throughout his career, Chris has been at the forefront of data science innovations, leveraging his deep technical knowledge, analytical skills, and problem-solving abilities to deliver data-driven solutions that push the boundaries of what is possible. His extensive experience includes working with large datasets, developing complex models, and creating cutting-edge algorithms to extract valuable insights and drive decision-making processes.
+Most of my career has been spent turning noisy, messy, real-world data into decisions people can trust.
 
-## Intellectual Property
+Sometimes that meant signal processing for defense systems.
+Sometimes it meant connected HVAC equipment.
+Lately it's been AI, LLMs, agentic software, and whatever helps engineers build better products faster.
 
-One of Chris's most remarkable achievements is his portfolio of 16 patents, which stands as a testament to his creativity and ingenuity. These patents cover a wide range of technologies and applications, making him a true pioneer in the data science realm.
+I care much more about solving important problems than chasing a particular technology.
 
-## Connect with Chris
+---
 
-If you are as fascinated by data science as we are, you don't want to miss out on Chris's insightful writings and updates on various platforms. You can find him on:
+## Things I'm Currently Exploring
 
-- [Medium](https://medium.com/@chris-smith): Dive into Chris's thought-provoking articles, where he shares his knowledge, experience, and insights on data science trends and best practices.
-- [Twitter](https://twitter.com/chrissmithphd): Follow Chris on Twitter to stay up to date with his latest thoughts, industry news, and engage in conversations with him and the data science community.
-- [GitHub](https://github.com/chrissmithphd): Check out Chris's GitHub profile to explore his open-source projects, code samples, and collaborations with other data scientists.
+- Physics-informed AI
+- Agentic software engineering
+- Robotics
+- Climate technology
+- Direct air capture
+- Decision-support systems
+- Human + AI workflows
+- Real-world sensing and connected devices
+
+---
+
+## Background
+
+- PhD in Statistical Signal Processing
+- Electrical Engineer + Computer Scientist
+- 20+ years building production analytical systems
+- AI leader and engineering manager
+- 18 U.S. patents
+- Builder of teams as much as software
+
+I've worked everywhere from defense and aerospace to HVAC, startups, and small businesses.
+
+---
+
+## I Enjoy Working On
+
+Problems where:
+
+- the data is incomplete
+- the physics matters
+- nobody knows the right answer yet
+- decisions have real consequences
+- simple solutions beat clever ones
+
+---
+
+## Current Projects
+
+- AI-assisted software development workflows
+- Climate technology research
+- Direct air capture concepts
+- Educational technology
+- Decision-support tools for aging and elder care
+- Content around engineering, AI, and systems thinking
+
+---
+
+## Philosophy
+
+Some ideas I keep coming back to:
+
+> Smooth systems outperform stressed ones.
+
+> The goal isn't smarter models.
+> It's better decisions.
+
+> Most complex systems fail because people optimize the wrong layer.
+
+> Physics is still undefeated.
+
+---
+
+## Looking For
+
+I'm always interested in talking with people building:
+
+- robotics
+- climate tech
+- industrial AI
+- scientific software
+- hard engineering problems
+- weird ideas that might actually work
+
+Especially if the problem lives somewhere between physics, data, and machine learning.
+
+---
+
+## Tech
+
+Python • SQL • AWS • LLMs • ML • Time Series • Signal Processing • Statistics • Connected Devices • RAG • Distributed Systems
+
+---
+
+## Reach Out
+
+If you're building something difficult and think another systems thinker would help, I'd enjoy hearing about it.

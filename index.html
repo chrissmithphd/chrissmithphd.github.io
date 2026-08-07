@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chris Smith, Ph.D.</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #f8f9fa;
+        }
+
+        .intro {
+            max-width: 800px;
+            margin: 60px auto 40px;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .intro h1 {
+            font-size: 2.5em;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .intro .tagline {
+            font-size: 1.3em;
+            color: #555;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .intro .meta {
+            font-size: 0.95em;
+            color: #777;
+        }
+
+        /* Timeline */
+        .timeline-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 80px auto;
+            padding: 0 20px;
+        }
+
+        .spine {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #3498db 0%, #2c3e50 50%, #95a5a6 100%);
+            transform: translateX(-50%);
+        }
+
+        .era {
+            text-align: center;
+            margin: 60px 0 40px;
+            position: relative;
+        }
+
+        .era-label {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 8px 24px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .branch {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .branch-left {
+            flex-direction: row-reverse;
+        }
+
+        .branch-right {
+            flex-direction: row;
+        }
+
+        .branch-content {
+            width: 42%;
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        .branch-left .branch-content {
+            margin-right: 8%;
+            text-align: right;
+        }
+
+        .branch-right .branch-content {
+            margin-left: 8%;
+            text-align: left;
+        }
+
+        .node {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 16px;
+            height: 16px;
+            background: #3498db;
+            border: 3px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px #3498db30;
+            z-index: 10;
+        }
+
+        .branch-content h3 {
+            color: #2c3e50;
+            margin-bottom: 6px;
+            font-size: 1.2em;
+        }
+
+        .branch-content .years {
+            color: #7f8c8d;
+            font-size: 0.85em;
+            margin-bottom: 12px;
+            font-style: italic;
+        }
+
+        .branch-content .role {
+            font-weight: 600;
+            color: #34495e;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .branch-content .highlight {
+            color: #555;
+            font-size: 0.9em;
+            line-height: 1.5;
+            margin-top: 8px;
+        }
+
+        .achievements {
+            max-width: 900px;
+            margin: 80px auto 40px;
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .achievements h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .achievements ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .achievements li {
+            padding: 8px 0;
+            color: #555;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .achievements li:last-child {
+            border-bottom: none;
+        }
+
+        .philosophy {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 40px;
+            background: #ecf0f1;
+            border-left: 4px solid #3498db;
+            font-style: italic;
+            color: #555;
+        }
+
+        .philosophy p {
+            margin: 15px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px 40px;
+            color: #7f8c8d;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .branch {
+                flex-direction: column !important;
+            }
+            .branch-content {
+                width: 100%;
+                margin: 0 0 20px 0 !important;
+                text-align: left !important;
+            }
+            .spine {
+                left: 20px;
+            }
+            .node {
+                left: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="intro">
+        <h1>Chris Smith, Ph.D.</h1>
+        <p class="tagline">I like building systems that solve big problems.</p>
+        <p class="meta">
+            Electrical Engineer • Computer Scientist • AI Leader<br>
+            23+ Years Production Systems • 18 U.S. Patents
+        </p>
+    </div>
+
+    <div class="timeline-container">
+        <div class="spine"></div>
+
+        <!-- RECENT -->
+        <div class="era">
+            <span class="era-label">Present Day</span>
+        </div>
+
+        <div class="branch branch-right">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Trane Technologies</h3>
+                <div class="years">2021 – Present</div>
+                <div class="role">Senior Manager, Data Science & Applied AI</div>
+                <div class="highlight">
+                    60+ production ML models • 9-person global team • 80K leads/month<br>
+                    $1B+ business impact • 30TB dataset • Frederick McKinley-Jones Award
+                </div>
+            </div>
+        </div>
+
+        <div class="branch branch-left">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Ingersoll Rand</h3>
+                <div class="years">2017 – 2021</div>
+                <div class="role">Lead Data Scientist</div>
+                <div class="highlight">
+                    50+ physics-based models • Launched diagnostics (2016)<br>
+                    First digital products • Multiple patents
+                </div>
+            </div>
+        </div>
+
+        <div class="branch branch-right">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Ingersoll Rand</h3>
+                <div class="years">2013 – 2017</div>
+                <div class="role">Lead Controls Engineer</div>
+                <div class="highlight">
+                    Nexia smart home platform • Millions of deployed thermostats<br>
+                    Energy Star standards • Bio-inspired HVAC controls (patented)
+                </div>
+            </div>
+        </div>
+
+        <!-- MID-CAREER -->
+        <div class="era">
+            <span class="era-label">Defense & Intelligence</span>
+        </div>
+
+        <div class="branch branch-left">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Southwest Research Institute</h3>
+                <div class="years">2008 – 2013</div>
+                <div class="role">Principal Engineer</div>
+                <div class="highlight">
+                    Principal Investigator: 12+ programs • DARPA, ONR, ARL, AFRL<br>
+                    >$1M/year budgets • SIGINT/COMINT • DARPA BLADE anti-IED<br>
+                    NSA 100+ CPU platform • JUNO spacecraft (2009, launched 2011)
+                </div>
+            </div>
+        </div>
+
+        <!-- FOUNDATIONAL -->
+        <div class="era">
+            <span class="era-label">Embedded Systems & Sensors</span>
+        </div>
+
+        <div class="branch branch-right">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Southwest Research Institute</h3>
+                <div class="years">1999 – 2008</div>
+                <div class="role">Research / Senior Research Engineer</div>
+                <div class="highlight">
+                    Global sensor systems (6 continents) • QNX, VxWorks, embedded Linux<br>
+                    FPGA/ASIC/GPU signal processing • RF design & antennas<br>
+                    Hardware + firmware + networking integration
+                </div>
+            </div>
+        </div>
+
+        <div class="branch branch-left">
+            <div class="node"></div>
+            <div class="branch-content">
+                <h3>Ph.D. Completed</h3>
+                <div class="years">2007</div>
+                <div class="role">University of Texas at San Antonio</div>
+                <div class="highlight">
+                    Electrical Engineering, Statistical Signal Processing<br>
+                    Transition from building sensors to analyzing data<br>
+                    15+ IEEE publications • NSF-funded research
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="achievements">
+        <h2>Patents & Publications</h2>
+        <ul>
+            <li><strong>18 Issued U.S. Patents</strong> – Machine learning, diagnostics, sensing, connected systems</li>
+            <li><strong>15+ Peer-Reviewed IEEE Publications</strong> – Signal processing, sensing, analytics</li>
+            <li><strong>H-index: 10+</strong></li>
+        </ul>
+    </div>
+
+    <div class="achievements">
+        <h2>Recognition</h2>
+        <ul>
+            <li><strong>Frederick McKinley-Jones "Master Inventor" Award</strong> (2023) – 10+ patents over nine years</li>
+            <li><strong>President's Awards for Technology Innovation</strong> (multiple years)</li>
+            <li><strong>CEE Award</strong> (2022) – Diagnostic capabilities recognition</li>
+            <li><strong>ADEX Platinum</strong> & <strong>ACHR Dealer Design Awards</strong> (2015)</li>
+        </ul>
+    </div>
+
+    <div class="philosophy">
+        <p>Smooth systems outperform stressed ones.</p>
+        <p>The goal isn't smarter models. It's better decisions.</p>
+        <p>Most complex systems fail because people optimize the wrong layer.</p>
+        <p>Physics is still undefeated.</p>
+    </div>
+
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/chrissmithphd/" target="_blank">LinkedIn</a> •
+            <a href="https://github.com/chrissmithphd" target="_blank">GitHub</a> •
+            <a href="mailto:christopher.blake.smith@gmail.com">Email</a>
+        </p>
+        <p style="margin-top: 20px; font-size: 0.9em;">
+            If you're building something difficult and think another systems thinker would help,<br>I'd enjoy hearing about it.
+        </p>
+    </footer>
+</body>
+</html>

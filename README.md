@@ -77,8 +77,6 @@ Some ideas I keep coming back to:
 
 > Start simple and see what the data says
 
-> Don't make stuff up
-
 
 ---
 

@@ -14,10 +14,9 @@ I care much more about solving important problems than chasing a particular tech
 
 ## Things I'm Currently Exploring
 
+- Climate technology
 - Physics-informed AI
 - Agentic software engineering
-- Robotics
-- Climate technology
 - Direct air capture
 - Decision-support systems
 - Human + AI workflows
@@ -27,14 +26,14 @@ I care much more about solving important problems than chasing a particular tech
 
 ## Background
 
-- PhD in Statistical Signal Processing
+- PhD in Statistical Signal Processing (misspelled as Electrical Engineering)
 - Electrical Engineer + Computer Scientist
 - 20+ years building production analytical systems
-- AI leader and engineering manager
+- Hands-on leader and engineering manager
 - 18 U.S. patents
 - Builder of teams as much as software
 
-I've worked everywhere from defense and aerospace to HVAC, startups, and small businesses.
+I've worked from defense and aerospace to HVAC, startups, and small businesses.
 
 ---
 
@@ -50,14 +49,14 @@ Problems where:
 
 ---
 
-## Current Projects
+## Current Side-Projects
 
 - AI-assisted software development workflows
 - Climate technology research
-- Direct air capture concepts
 - Educational technology
 - Decision-support tools for aging and elder care
 - Content around engineering, AI, and systems thinking
+- Direct air capture concepts
 
 ---
 
@@ -65,7 +64,7 @@ Problems where:
 
 Some ideas I keep coming back to:
 
-> Smooth systems outperform stressed ones.
+> I don't need a perfect model, I need one that's useful
 
 > The goal isn't smarter models.
 > It's better decisions.
@@ -74,18 +73,25 @@ Some ideas I keep coming back to:
 
 > Physics is still undefeated.
 
+> Not everything needs AI
+
+> Start simple and see what the data says
+
+> Don't make stuff up
+
+
 ---
 
 ## Looking For
 
 I'm always interested in talking with people building:
 
-- robotics
 - climate tech
-- industrial AI
-- scientific software
 - hard engineering problems
 - weird ideas that might actually work
+- robotics
+- industrial AI
+- scientific software
 
 Especially if the problem lives somewhere between physics, data, and machine learning.
 
